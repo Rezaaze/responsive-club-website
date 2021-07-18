@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'Cabin';
+
+}
+
+p{
+    margin: 0.5rem;
+}
+/* header section*/   
+
+ul{
+
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    flex: 25%;
+    background-color: #1f60b5;
+    padding: 1rem 0.2rem;
+    background-color:rgb(15, 97, 86);
+    border-radius: 0.5rem;
+    border: 0.1rem solid navajowhite;
+    color: white;
+    text-transform:uppercase;
+    
+}
+
+/* landing page section*/
+
+img{
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    right: 0.1rem;
+    top:0.4rem;
+    width: 15%;
+    border-radius: 1.2rem;
+
+}
+
+.landing-page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15rem;
+    background-image: url(../images/launchpresso-h5iazR-wljU-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.landing-page h1{
+    font-size: 0.9rem;
+    padding-bottom: 1rem
+}
+
+.landing-page p{
+    font-size: 0.8rem;
+}
+
+
+/*about us section*/
+
+
+
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.about-us-container h3{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+section{
+    margin: 2rem 0;
+}
+
+.meetings{
+    display: flex;
+}
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: sienna;
+}
+
+
+
+
+@media screen and (min-width:900px) {
+
+    .logo{
+        position: absolute;
+        right: 0.1rem;
+        top:0.4rem;
+        width: 10%;
+        border-radius: 1.2rem;
+    }
+    .landing-page{
+        height: 40rem;
+    }
+    .landing-page h1 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    .landing-page p{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    nav li:hover{
+        background-color: white;
+        color: violet;    
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        border: 0.25rem solid black
+       
+    }
+    
+    .img{
+        max-width: 25%;
+        margin: 1rem;
+        flex-basis: 50%;
+    }
+    .text{
+        flex-basis: 50%;
+        margin:1rem;
+        align-self: center;
+        
+    
+    }
+
+    .vision1{
+        order: 1;
+    }
+
+    .galary-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 0.5rem solid sienna;
+    }
+
+    .image-container{
+        max-width: 25rem;
+        max-height: auto;
+        min-width: 25rem;
+        
+    }
+    .picture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pic-container{
+        max-width: 40rem;
+        
+    }
+    
+}
+
+
+
+
+
